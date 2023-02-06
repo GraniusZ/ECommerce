@@ -1,0 +1,18 @@
+.footer{
+  width: 100%;
+  border-top: 1px solid #E1E3E6;
+}
+.container{
+  max-width: 1320px;
+
+}
+.footerWrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 35px;
+  color:#9A9CAA;
+  @media screen and (max-width: 992px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

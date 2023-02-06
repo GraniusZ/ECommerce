@@ -1,0 +1,27 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition: 0.3s all;
+  height: 47px;
+  cursor: pointer;
+  &Content {
+    gap: 16px;
+    transition: 0.3s all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
+  }
+
+
+  svg {
+    width: 18px;
+    height: 18px;
+
+  }
+  svg path{
+    stroke-width:2;
+  }
+}

@@ -1,0 +1,15 @@
+.categoryNav {
+  background: white;
+  border: 1px solid #E1E3E6;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: inherit;
+  z-index: 0;
+}
+.categoryNavContent{
+  list-style: none;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap:12px
+}

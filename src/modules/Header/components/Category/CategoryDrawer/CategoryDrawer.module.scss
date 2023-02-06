@@ -1,0 +1,28 @@
+.drawerCategory{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.drawerCategoryTitle{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px #F0F2F3 solid;
+  padding-left: 25px;
+  font-weight: 500;
+}
+.drawerCategoryList{
+  list-style: none;
+}
+.drawerCategorySelect{
+  height: 56px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px #F0F2F3 solid;
+}

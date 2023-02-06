@@ -1,0 +1,23 @@
+.drawerCategoryItem{
+  height: 48px;
+  transition: 0.3s ease-in;
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: 100%;
+  overflow: hidden;
+  &:hover{
+    background: #03cce0;
+  }
+}
+.drawerCategoryItemText{
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  align-items: center;
+  padding-left: 30px;
+  overflow: hidden;
+}

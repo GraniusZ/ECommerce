@@ -1,0 +1,38 @@
+.headerTop {
+  width: 100%;
+  background: #272343;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 35px;
+  margin: 0 auto;
+  @media screen and (max-width: 992px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 14px 0;
+}
+
+.text {
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 300;
+
+}
+
+.searchIcon {
+  margin-right: 9px;
+  width: 18px;
+  height: 18px;
+  stroke: #FFFFFF;
+  fill: #FFFFFF;
+}
