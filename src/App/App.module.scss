@@ -1,0 +1,9 @@
+.app{
+  position: absolute;
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  overflow: auto;
+  min-height: 100%
+}

@@ -8,7 +8,7 @@ import { HeaderButton } from "@ui/HeaderButton/HeaderButton";
 import { drawerItems } from "@modules/Header/const/drawerItems";
 import { useDrawer } from "@modules/Header/hooks/useDrawer/useDrawer";
 import CategoryDrawer from "@modules/Header/components/Category/CategoryDrawer/CategoryDrawer";
-import { Logo } from "@ui/Logo/Logo";
+import { LogoLink } from "@components/LogoLink/LogoLink";
 
 const Drawer = () => {
   const [handleClick, openedMenu] = useDrawer();
@@ -28,7 +28,7 @@ const Drawer = () => {
               <div className={styles.drawerWrapper}>
                 {" "}
                 <div className={styles.drawerHeader}>
-                  <Logo />
+                  <LogoLink />
                   <HeaderButton
                     handleClick={handleClick}
                     className={styles.closeDrawer}
