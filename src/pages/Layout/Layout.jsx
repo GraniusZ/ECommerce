@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main className={styles.main} data-testid={"main"}>
         <Outlet />
       </main>
       <Footer />

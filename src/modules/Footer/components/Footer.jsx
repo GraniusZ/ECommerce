@@ -5,7 +5,7 @@ import { getCurrentYear } from "@modules/Footer/helpers/getCurrentYear";
 
 export const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} data-testid={"footer"}>
       <div className={styles.container}>
         <div className={styles.footerWrapper}>
           <LogoLink />

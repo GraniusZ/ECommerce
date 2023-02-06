@@ -5,8 +5,8 @@ import { renderWithProviders } from "@utils/utils-for-tests/renderWithProviders"
 describe("App", () => {
   it("Renders App", () => {
     renderWithProviders(<App />);
-    expect(screen.getByRole("banner")).toBeInTheDocument();
-    expect(screen.getByRole("main").toBeInTheDocument);
-    expect(screen.getByRole("contentinfo").toBeInTheDocument);
+    expect(screen.getByTestId(/header/i, {})).toBeInTheDocument();
+    expect(screen.getByTestId(/main/i, {})).toBeInTheDocument();
+    expect(screen.getByTestId(/footer/i, {})).toBeInTheDocument();
   });
 });

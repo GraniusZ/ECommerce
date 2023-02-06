@@ -9,7 +9,7 @@ import CategoryNav from "@modules/Header/components/Category/CategoryNav/Categor
 export const Header = () => {
   return (
     <>
-      <header className={styles.header}>
+      <header className={styles.header} data-testid={"header"}>
         <HeaderTop />
         <HeaderMiddle />
         <HeaderNav />
